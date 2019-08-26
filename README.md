@@ -10,6 +10,7 @@ Every monitoring hit that is sent, is of type event, with an added ecommerce act
 * Event Action: the GTM event name
 * Event Label: configurable (default is a timestamp)
 * Event Value: the number of tags sent in this monitoring hit
+
 Hostname and Page Path are sent
 * Every Tag that is fired and monitored is sent as a product
 * Product Name: GTM tag name that fires (or the ID, if no name is set)
@@ -18,6 +19,7 @@ Hostname and Page Path are sent
 * Product Variant: the tag firing status (success or failure)
 * Product Brand: the path name
 * Product Price: the tag execution time
+
 Finally, the transaction has the following properties
 * Transaction ID: the timestamp
 * Store affiliation: the hostname
