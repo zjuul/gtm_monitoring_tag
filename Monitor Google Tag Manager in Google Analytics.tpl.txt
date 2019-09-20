@@ -1,4 +1,4 @@
-﻿___INFO___
+___INFO___
 
 {
   "displayName": "Monitor Google Tag Manager in Google Analytics",
@@ -26,14 +26,8 @@ ___TEMPLATE_PARAMETERS___
     "alwaysInSummary": true,
     "valueValidators": [
       {
-        "type": "NON_EMPTY"
-      },
-      {
-        "args": [
-          "^[uU][aA]-[0-9]+"
-        ],
-        "errorMessage": "The endpoint must be a valid URL",
-        "type": "REGEX"
+        "type": "GA_TRACKING_ID",
+        "errorMessage": "The field must be a valid UA property string (UA-12345-6)"
       }
     ],
     "displayName": "Analytics Property to send to",
@@ -175,6 +169,13 @@ ___WEB_PERMISSIONS___
       "param": [
         {
           "key": "urlParts",
+          "value": {
+            "type": 1,
+            "string": "any"
+          }
+        },
+        {
+          "key": "queriesAllowed",
           "value": {
             "type": 1,
             "string": "any"
