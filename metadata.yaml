@@ -1,0 +1,5 @@
+homepage: "https://stuifbergen.com"
+documentation: "https://stuifbergen.com/2019/08/gtm-monitoring-in-google-analytics/"
+versions:
+  - sha: ac095485c652dd3139ee59be917c5165b7787c3a
+    changeNotes: Release prepared for inclusion in Gallery
